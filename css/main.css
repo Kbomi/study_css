@@ -1,3 +1,10 @@
 .sub {
   color: red;
 }
+.box {
+  padding: 4px 8px;
+  border: 1px solid lightgray;
+}
+.box + .box {
+  margin-top: 10px;
+}
